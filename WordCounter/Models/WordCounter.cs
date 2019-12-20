@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WordCounterLogic
 {
-    public class WordCounter
+    public class RepeatCounter
     {
         public int counter;
 
