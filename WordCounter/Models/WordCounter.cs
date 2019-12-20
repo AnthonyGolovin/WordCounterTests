@@ -5,14 +5,13 @@ namespace WordCounterLogic
 {
     public class RepeatCounter
     {
-        public int counter;
-
         public int UserInput(string UserSentence, string DuplicateWord)
         {
-            string[] wordDivider = UserSentence.Split(" ");
+            int counter = 0;
+            string[] wordDivider = UserSentence.ToLower().Split(" ");
             for(int i = 0; i < wordDivider.Length; i++)
             {
-                if(wordDivider[i] == DuplicateWord)
+                if(wordDivider[i] == DuplicateWord.ToLower())
                 {
                     counter += 1;
                 }

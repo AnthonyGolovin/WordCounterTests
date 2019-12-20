@@ -8,6 +8,7 @@ namespace WordCounterMain
     {
         public static void Main()
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Please enter a sentence");
             string UserSentence = Console.ReadLine();
             
