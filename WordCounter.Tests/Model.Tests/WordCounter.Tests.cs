@@ -26,7 +26,7 @@ namespace WordCounterLogic.Tests
         } 
         
         [TestMethod]
-        public void UserInput__ReturnsNumberOfDuplicates()
+        public void UserInput_testtest_ReturnsNumberOfDuplicates()
         {
             RepeatCounter newRepeatCounter = new RepeatCounter();
             Assert.AreEqual(2,newRepeatCounter.UserInput("pew pew words", "pew"));
