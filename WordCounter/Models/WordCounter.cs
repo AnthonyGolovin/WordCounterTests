@@ -10,7 +10,7 @@ namespace WordCounterLogic
         public int UserInput(string UserSentence, string DuplicateWord)
         {
             string[] wordDivider = UserSentence.Split(" ");
-            for(int i = 0; i < wordDivider; i++)
+            for(int i = 0; i < wordDivider.Length; i++)
             {
                 if(wordDivider[i] == DuplicateWord)
                 {
