@@ -27,6 +27,19 @@ Specs:
 * _2. Go to the dir. where you would like to install the file. (for ex. computer-name:~ Guest$ cd desktop
 * _3. To make a copy of a repository from Github on a local machine computer-name:desktop Guest$ git clone https://github.com/AnthonyGolovin/WordCounterTests.
 * _4. A boom a new file should appear named "WordCounterTests" > enter the directory a WordCounter and type "dotnet build" and then "dotnet run" _
+* _Tests: _
+* _|Spec: Counts Word Duplicates |Input: Sentence:"pew pew words" Word: "Pew" | Output: Should return the number of times "pew" was written "2" | | _
+
+* _|Spec:  Should lower capital letters |Input: Sentence:"long john silvers LONG loNG LonG LoNg" Word: "long" | Output: Should return the number of times "long" was written "5" | | _
+
+* _|Spec: NOT find repeated words in Continious String |Input: Sentence:"johnjohnjohnjohn" Word: "john" | Output: Should return the number of times "john" was written "0" | | _
+
+* _|Spec: Finds user word even with double spaces |Input: Sentence:"log  log  dog" Word: "log" | Output: Should return the number of times "log" was written "2" | | _
+
+* _|Spec: Counts Word even with punctuation |Input: Sentence:"Gus got off the bus, but he actually didnt" Word: "bus" | Output: Should return the number of times "bus" was written "2" | | _
+
+
+
 
 ## Support and contact details
 
